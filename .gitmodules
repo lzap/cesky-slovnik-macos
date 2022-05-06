@@ -1,0 +1,6 @@
+[submodule "pyglossary"]
+	path = pyglossary
+	url = https://github.com/ilius/pyglossary
+[submodule "svobodneslovniky"]
+	path = svobodneslovniky
+	url = https://github.com/svobodneslovniky/svobodneslovniky
