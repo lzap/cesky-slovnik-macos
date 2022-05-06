@@ -2,7 +2,7 @@
 
 Slovník pro oficiální aplikaci "Slovník" (Dictionary) od Applu. Stačí nakopírovat a v nastavení zaktivovat.
 
-Vygenerováno ze slovníků https://www.svobodneslovniky.cz (svobodná licence GNU FDL)
+Vygenerováno ze slovníků https://www.svobodneslovniky.cz které jsou a vždy budou zdarma. Přesněji řečeno, slovníky vytváří komunita a svoji práci dává k dispozici pod svobodnou licencí GNU FDL ve formátu textu. Ten ovšem MacOS Slovník neumí číst, proto jsem vytvořil verzi ušitou na míru pro tuto aplikaci od Applu. Dále zde najdeš i návod, jak takový slovník převést sám.
 
 ## Instalace
 
@@ -27,6 +27,10 @@ Vygenerováno ze slovníků https://www.svobodneslovniky.cz (svobodná licence G
 * Hotovo!
 
 ![](/images/step_done.png)
+
+## Podpora
+
+Funguje? Bezva. Piju kafe a to stojí peníze, Sponsor tlačítko je vpravo nahoře. Tak na co ještě čekáš? :-)
 
 ## Vytvoření vlastní verze
 
@@ -60,9 +64,19 @@ make -C Czech DICT_BUILD_TOOL_DIR=../ddk
 make -C Czech install DICT_BUILD_TOOL_DIR=../ddk
 ```
 
-## Podpora
+Pokud vygeneruješ novou verzi a ověříš, že funguje dobře, pošli mi pull request!
 
-Piju kafe a to stojí peníze, Sponsor tlačítko je vpravo nahoře. Tak na co ještě čekáš? :-)
+## Místo na dotazy
+
+Často se mě ptáte...
+
+### Uděláš i němčinu
+
+Umím jen anglicky a potřebuju jen tenhle slovník, takže ne, ale pull requestům se nebudu bránit!
+
+### Chci jazyk XYZ
+
+Mohu tě odkázat na program od Vaška Slavíka https://dictionaries.io/ který za lidových 599,- korun českých nabízí přes 80 jazyků. Původ a licence korpusu je ovšem neznámá, trošku to smrdí... ;-)
 
 ## LICENCE
 
@@ -71,3 +85,5 @@ GNU FDL
 Já nejsem autorem slovníků ani do nich nijak nepřispívám, tento repozitář obsahuje kopii a je jen návod, jak zkonvertovat svobodný slovník na Apple MacOS Dictionary formát.
 
 Pro další info běž na https://www.svobodneslovniky.cz
+
+Pokud umíš anglicky, zapoj se!
