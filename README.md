@@ -1,10 +1,34 @@
-== Anglicko-Český slovník pro MacOS zdarma
+# Anglicko-Český slovník pro MacOS zdarma
 
 Slovník pro oficiální aplikaci "Slovník" (Dictionary) od Applu. Stačí nakopírovat a v nastavení zaktivovat.
 
 Vygenerováno ze slovníků https://www.svobodneslovniky.cz (svobodná licence GNU FDL)
 
-== Vytvoření vlastní verze
+## Instalace
+
+* Stáhni si [balíček](https://github.com/lzap/cesky-slovnik-macos/archive/refs/heads/main.zip) a rozbal ho poklepáním.
+* Ve složce `cesky-slovnik-macos-main` najdi podsložku `Czech/objects/Czech.dictionary` a zkopíruj ji (Command-C).
+
+![](/images/step_extract.png)
+
+* Jdi do své Knihovny (Command-Shift-L nebo menu Otevřít - Knihovna) a najdi složku `Dictionaries`.
+
+![](/images/step_library.png)
+
+* Nakopíruj do Dictionaries složku Czech.dictionary (Command-V).
+
+![](/images/step_paste.png)
+
+* Spusť slovník a dej nastavení (Command-,).
+
+![](/images/step_settings.png)
+
+* Najdi slovník pojmenovaný en-cs.txt a zaktivuj ho.
+* Hotovo!
+
+![](/images/step_done.png)
+
+## Vytvoření vlastní verze
 
 * Stáhnout `Additional_Tools_for_XCode.dmg` z Apple developer portálu (balíček je malý, neboj se :-).
 * Připojit (mount) a zkopírovat obsah adresáře `Utilities/Dictionary Development Kit` do tohoto projektu do adresáře `./ddk`.
