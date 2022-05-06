@@ -15,15 +15,15 @@ Vygenerováno ze slovníků https://www.svobodneslovniky.cz (svobodná licence G
 ![](/images/step_copy.png)
 
 * Jdi do své Knihovny (Command-Shift-L nebo menu Otevřít - Knihovna) a najdi složku `Dictionaries`.
+* Vlož do Dictionaries složku Czech.dictionary (Command-V).
 
 ![](/images/step_library.png)
 
-* Nakopíruj do Dictionaries složku Czech.dictionary (Command-V).
 * Spusť slovník a dej nastavení (Command-,).
+* Najdi slovník pojmenovaný en-cs.txt a zaktivuj ho.
 
 ![](/images/step_settings.png)
 
-* Najdi slovník pojmenovaný en-cs.txt a zaktivuj ho.
 * Hotovo!
 
 ![](/images/step_done.png)
@@ -60,10 +60,14 @@ make -C Czech DICT_BUILD_TOOL_DIR=../ddk
 make -C Czech install DICT_BUILD_TOOL_DIR=../ddk
 ```
 
-== LICENCE
+## Podpora
+
+Piju kafe a to stojí peníze, Sponsor tlačítko je vpravo nahoře. Tak na co ještě čekáš? :-)
+
+## LICENCE
 
 GNU FDL
 
-Já nejsem autorem slovníků ani do nich nijak nepřispívám, tento repozitář je jen návod, jak zkonvertovat svobodný slovník na Apple MacOS Dictionary formát.
+Já nejsem autorem slovníků ani do nich nijak nepřispívám, tento repozitář obsahuje kopii a je jen návod, jak zkonvertovat svobodný slovník na Apple MacOS Dictionary formát.
 
 Pro další info běž na https://www.svobodneslovniky.cz
