@@ -24,7 +24,7 @@ Vygenerováno ze slovníků https://www.svobodneslovniky.cz které jsou a vždy 
 
 ![](/images/step_settings.png)
 
-* Hotovo!
+* Hotovo! Stažený balíček ZIP i rozbalený adresář `cesky-slovnik-macos-main` můžeš v klidu smazat.
 
 ![](/images/step_done.png)
 
@@ -57,7 +57,7 @@ pip3 install prompt_toolkit lxml beautifulsoup4 html5lib
 make -C Czech DICT_BUILD_TOOL_DIR=../ddk
 ```
 
-* Výsledný slovník je vygenerován v `./Czech/objects/Czech.dictionary` a tento lze distribuovat, nebo kopírovat do `/Library/Dictionaries`.
+* Výsledný slovník je vygenerován v `./Czech/objects/Czech.dictionary` a tento lze distribuovat za dodržení podmínek licence GNU FDL, nebo kopírovat do `/Library/Dictionaries`.
 * Instalaci lze provést automaticky příkazem:
 
 ```
