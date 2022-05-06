@@ -7,18 +7,18 @@ Vygenerováno ze slovníků https://www.svobodneslovniky.cz (svobodná licence G
 ## Instalace
 
 * Stáhni si [balíček](https://github.com/lzap/cesky-slovnik-macos/archive/refs/heads/main.zip) a rozbal ho poklepáním.
-* Ve složce `cesky-slovnik-macos-main` najdi podsložku `Czech/objects/Czech.dictionary` a zkopíruj ji (Command-C).
 
 ![](/images/step_extract.png)
+
+* Ve složce `cesky-slovnik-macos-main` najdi podsložku `Czech/objects/Czech.dictionary` a zkopíruj ji (Command-C).
+
+![](/images/step_copy.png)
 
 * Jdi do své Knihovny (Command-Shift-L nebo menu Otevřít - Knihovna) a najdi složku `Dictionaries`.
 
 ![](/images/step_library.png)
 
 * Nakopíruj do Dictionaries složku Czech.dictionary (Command-V).
-
-![](/images/step_paste.png)
-
 * Spusť slovník a dej nastavení (Command-,).
 
 ![](/images/step_settings.png)
