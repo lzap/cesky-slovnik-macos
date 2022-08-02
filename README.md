@@ -76,7 +76,7 @@ Umím jen anglicky a potřebuju jen tenhle slovník, takže ne, ale pull request
 
 ### Chci jazyk XYZ
 
-Mohu tě odkázat na program od Vaška Slavíka https://dictionaries.io/ který za lidových 599,- korun českých nabízí přes 80 jazyků. Původ a licence korpusu je ovšem neznámá, trošku to smrdí... ;-)
+Mohu tě odkázat na program od Vaška Slavíka https://dictionaries.io.
 
 ## LICENCE
 
